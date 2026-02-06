@@ -10,7 +10,7 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from datetime import datetime, timedelta
 
 # ==================== SOZLAMALAR ====================
-GROQ_API_KEY = "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"  # https://console.groq.com/keys
+GROQ_API_KEY = "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"  # https://console.groq.com/keys
 TELEGRAM_TOKEN = "8413537344:AAEXixgbU5wcvSiG5_N4J1QISNhWurjxpc4"
 CHANNEL_ID = "@psixoboshqaruv" 
 ADMIN_ID = 508914809
@@ -738,4 +738,5 @@ if __name__ == "__main__":
     except (KeyboardInterrupt, SystemExit):
         logging.info("🛑 To'xtatildi")
     except Exception as e:
+
         logging.error(f"❌ Fatal: {e}")
